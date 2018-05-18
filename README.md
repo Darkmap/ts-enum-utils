@@ -2,9 +2,10 @@
 
 This small utility package helps you dealing with TypeScript's enum type.
 
-1. List name of all members of a enum type.
-2. List all members(name with value) of numeric enum type.
-2. List all members(name with value) of string enum type.
+Support methods:
+1. `listEnumMemberNames`: list name of all members of a enum type.
+2. `listNumericEnumMembers`: list all members(name with value) of numeric enum type.
+2. `listStringEnumMembers`: List all members(name with value) of string enum type.
 
 ## Usage:
 ```typescript

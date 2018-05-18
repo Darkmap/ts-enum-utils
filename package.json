@@ -1,6 +1,6 @@
 {
   "name": "ts-enum-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides utilities for dealing with TypeScript's enum. For example, \"list all member names\", \"list combos of member name and values\", etc.",
   "main": "index.js",
   "scripts": {
