@@ -1,0 +1,39 @@
+{
+  "name": "ts-enum-utils",
+  "version": "1.0.0",
+  "description": "Provides utilities for dealing with TypeScript's enum. For example, \"list all member names\", \"list combos of member name and values\", etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*_test.ts",
+    "fix": "tslint --fix -c ./tslint.json 'src/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkmap/ts-enum-utils.git"
+  },
+  "keywords": [
+    "typescript",
+    "enum",
+    "enums",
+    "util",
+    "library"
+  ],
+  "author": "darkmap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darkmap/ts-enum-utils/issues"
+  },
+  "homepage": "https://github.com/Darkmap/ts-enum-utils#readme",
+  "dependencies": {
+    "tslint": "5.10.0",
+    "typescript": "2.8.3"
+  },
+  "devDependencies": {
+    "@types/chai": "4.1.3",
+    "@types/mocha": "5.2.0",
+    "chai": "4.1.2",
+    "mocha": "5.1.1",
+    "ts-node": "6.0.3",
+    "typings": "2.1.1"
+  }
+}
