@@ -7,6 +7,11 @@ Support methods:
 2. `listNumericEnumMembers`: list all members(name with value) of numeric enum type.
 2. `listStringEnumMembers`: List all members(name with value) of string enum type.
 
+## Installation
+```
+npm install ts-enum-utils
+```
+
 ## Usage:
 ```typescript
 import {listEnumMemberNames, listNumericEnumMembers, listStringEnumMembers} from 'ts-enum-utils';
