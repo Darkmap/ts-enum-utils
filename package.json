@@ -1,6 +1,6 @@
 {
   "name": "ts-enum-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Provides utilities for dealing with TypeScript's enum. For example, \"list all member names\", \"list combos of member name and values\", etc.",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,6 @@
     "@types/mocha": "5.2.0",
     "chai": "4.1.2",
     "mocha": "5.1.1",
-    "ts-node": "6.0.3",
-    "typings": "2.1.1"
+    "ts-node": "6.0.3"
   }
 }
